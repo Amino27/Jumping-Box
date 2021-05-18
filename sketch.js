@@ -54,21 +54,21 @@ function draw() {
   }
   
   else if(movingSprite.isTouching(fixSprite3)){
-    music.stop()
+    music.play()
     movingSprite.shapeColor="blue";
     movingSprite.bounceOff(fixSprite3)
    
   }
     
   else if(movingSprite.isTouching(fixSprite2)){
-    music.stop()
+    music.play()
     movingSprite.shapeColor="green";
     movingSprite.bounceOff(fixSprite2)
    
   }
   
   else if(movingSprite.isTouching(fixSprite1)){
-    music.stop()
+    music.play()
     movingSprite.shapeColor="red";
     movingSprite.bounceOff(fixSprite1)
   }
